@@ -5,9 +5,12 @@
   "engines": {
     "node": "6.11.1"
   },
-  "main": "server/index.js",
+  "now": {
+    "dotenv": "variables.env.now"
+  },
+  "main": "index.js",
   "scripts": {
-    "start": "node server/index.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "express": "4.15.2"
