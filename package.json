@@ -1,14 +1,30 @@
 {
-  "name": "portolio-master",
-  "version": "1.0.0",
-  "description": "My site",
+  "name": "warren-cook-site",
+  "version": "0.2.6",
+  "description": "A simple portfolio site",
+  "engines": {
+    "node": "6.11.1"
+  },
   "main": "server/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server/index.js",
+    "test": "node test.js"
   },
- "author": "Warren Cook",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.15.2"
-  }
+    "express": "4.15.2"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/warrencook6/My-Site.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
 }
