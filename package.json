@@ -1,14 +1,13 @@
 {
   "name": "warren-cook-site",
-  "version": "0.2.6",
+  "version": "1.0.1",
   "description": "A simple portfolio site",
   "engines": {
     "node": "6.11.1"
   },
   "main": "server/index.js",
   "scripts": {
-    "start": "node server/index.js",
-    "test": "node test.js"
+    "start": "node server/index.js"
   },
   "dependencies": {
     "express": "4.15.2"
