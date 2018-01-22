@@ -4,4 +4,4 @@ This is a pretty simple portfolio site that I made just to show people what I kn
 
 To run, download the files and 'npm install' the node modules.
 
-I AM WRITING THIS TO SEE IF IT DOES ANYTHING
+*This is not live yet*
